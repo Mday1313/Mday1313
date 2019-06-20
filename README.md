@@ -1,2 +1,1 @@
-# Basic-Portfolio
-Recommended HW week 1
+# Remodel in the works
