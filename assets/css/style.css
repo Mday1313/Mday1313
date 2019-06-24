@@ -96,6 +96,11 @@ body, html {
     font-size: 18px;
     letter-spacing: 10px;
   }
+  .about-links {
+    margin-top: 20px;
+    font-size: 3em;
+    color: red;
+  }
   h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
