@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+.nav-item{
+  color: #333;
+}
 body, html {
     height: 100%;
     margin: 0;
