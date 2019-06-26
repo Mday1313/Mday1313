@@ -101,6 +101,9 @@ body, html {
     font-size: 3em;
     color: red;
   }
+  .form-group {
+    margin: 30px;
+  }
   h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
