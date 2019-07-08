@@ -42,23 +42,23 @@
 
     <nav class='navbar navbar-dark fixed-top sticky' role='navigation'>
         <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#about">About Me</a>
-                </li>
-                <!-- <li class="nav-item">
+            <li class="nav-item">
+                <a class="nav-link active" href="#about">About Me</a>
+            </li>
+            <!-- <li class="nav-item">
                     <a class="nav-link active" href="#experience">Experience</a>
                 </li> -->
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact Me</a>
-                </li>
-            </ul>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+        </ul>
     </nav>
     <div class="bgimg-1">
-            
-       
+
+
         <div class="caption">
             <span class="border">MELISSA DAY</span>
         </div>
@@ -155,7 +155,8 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
-                        <img class="project-image" src="./assets/images/travel-scraper.png" width="345px" height="230px">
+                        <img class="project-image" src="./assets/images/travel-scraper.png" width="345px"
+                            height="230px">
                         <div class="card-body">
                             <h3></h3>
                             <p class="card-text">Travel Scraper</p>
@@ -196,13 +197,15 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
-                        <img class="project-image" src="./assets/images/bamazon.png" width="345px" height="230px">
+                        <img class="project-image" src="./assets/images/clicky.png" width="345px" height="230px">
                         <div class="card-body">
                             <h3></h3>
-                            <p class="card-text">CLI Bamazon App</p>
+                            <p class="card-text">React Clicky Game</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group project-btn">
-                                    <a href="https://github.com/Mday1313/mySQL-bamazon"><button type="button"
+                                    <a href="https://mday1313.github.io/react-clicky-game/"><button type="button"
+                                            class="btn btn-sm btn-outline-secondary">View my App</button></a>
+                                    <a href="https://github.com/Mday1313/react-clicky-game/"><button type="button"
                                             class="btn btn-sm btn-outline-secondary">Github Repo</button></a>
                                 </div>
 
@@ -216,62 +219,73 @@
     </div>
 
     <div class="bgimg-3">
-        <div class="caption-ex"id="contact">
+        <div class="caption-ex" id="contact">
             <span class="border" style="background-color:transparent;font-size:25px;color: #111;">CONTACT ME</span>
             <br>
-            <p class="about-links"><a class="btn btn-dark" href="https://www.linkedin.com/in/melissa-day-646a05170" target="_blank" role="button"><i class="fab fa-linkedin-in"></i></a>       <a class="btn btn-dark" href="https://github.com/Mday1313" target="_blank" role="button"><i class="fab fa-github-square"></i></a></p>
+            <p class="about-links"><a class="btn btn-dark" href="https://www.linkedin.com/in/melissa-day-646a05170"
+                    target="_blank" role="button"><i class="fab fa-linkedin-in"></i></a> <a class="btn btn-dark"
+                    href="https://github.com/Mday1313" target="_blank" role="button"><i
+                        class="fab fa-github-square"></i></a></p>
         </div>
     </div>
 
-    <div  style="position:relative;" id="forms">
-            <form id="contact-form" method="post" action="contact.php" role="form">
+    <div style="position:relative;" id="forms">
+        <form id="contact-form" method="post" action="contact.php" role="form">
 
-                    <div class="messages"></div>
-                
-                    <div class="controls">
-                
-                        <div class="row" >
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="form_name">Firstname *</label>
-                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="form_lastname">Lastname *</label>
-                                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
+            <div class="messages"></div>
+
+            <div class="controls">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_name">Firstname *</label>
+                            <input id="form_name" type="text" name="name" class="form-control"
+                                placeholder="Please enter your firstname *" required="required"
+                                data-error="Firstname is required.">
+                            <div class="help-block with-errors"></div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="form_email">Email *</label>
-                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                          
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="form_message">Message *</label>
-                                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <input type="submit" class="btn btn-dark btn-send" value="Send message">
-                            </div>
-                        </div>
-                        
                     </div>
-                
-                </form>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_lastname">Lastname *</label>
+                            <input id="form_lastname" type="text" name="surname" class="form-control"
+                                placeholder="Please enter your lastname *" required="required"
+                                data-error="Lastname is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_email">Email *</label>
+                            <input id="form_email" type="email" name="email" class="form-control"
+                                placeholder="Please enter your email *" required="required"
+                                data-error="Valid email is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_message">Message *</label>
+                            <textarea id="form_message" name="message" class="form-control"
+                                placeholder="Message for me *" rows="4" required="required"
+                                data-error="Please, leave us a message."></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="submit" class="btn btn-dark btn-send" value="Send message">
+                    </div>
+                </div>
+
+            </div>
+
+        </form>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
