@@ -1,6 +1,10 @@
 html {
   scroll-behavior: smooth;
 }
+nav {
+  background-color:  "#dadada";
+  z-index: 100;
+}
 .nav-item{
   color: #333;
 }
