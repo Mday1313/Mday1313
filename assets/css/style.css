@@ -2,11 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 nav {
-  background-color:  "#dadada";
+  background-color:  #777;
   z-index: 100;
 }
-.nav-item{
-  color: #333;
+.navbar{
+  color: #dadada;
 }
 body, html {
     height: 100%;
