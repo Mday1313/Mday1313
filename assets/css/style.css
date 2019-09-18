@@ -100,8 +100,8 @@ body, html {
     
     color: #fff;
     padding: 18px;
-    font-size: 18px;
-    letter-spacing: 10px;
+    font-size: 12px;
+    
   }
   .about-links {
     margin-top: 20px;
@@ -123,8 +123,18 @@ body, html {
     .bgimg-1, .bgimg-2, .bgimg-3 {
       background-attachment: scroll;
     }
+
+    .caption2 {
+      font-size: 18px;
+      letter-spacing: 10px;
+    }
   }
 
   .card-body {
     color: whitesmoke;
+  }
+
+  .project-image {
+    width: 100%;
+    overflow: hidden;
   }
