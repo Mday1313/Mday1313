@@ -6,6 +6,6 @@ $.each($('.nav__link'), (index, link) => {
     $(link).on('click', () => {
         $('body').removeClass('nav-open');
     })
-
-  
 })
+
+
