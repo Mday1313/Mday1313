@@ -1,5 +1,13 @@
-# My Portfolio
+# Welcome to my little piece of the web.
 
-NEW site coming soon!
+## Web Tools
+This is a simple HTML5 and CSS portfolio styled using BEM methodology. 
 
-Basic HTML5 / CSS site
+## View Site
+You can view this site [here](https://mday1313.github.io/Mday1313/).
+
+
+
+
+
+
