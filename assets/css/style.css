@@ -13,7 +13,7 @@
     --fw-bold: 900;
 
     --clr-light: #fff;
-    --clr-med: #4e4e4e;
+    --clr-med: #000;
     --clr-dark: #303030;
     --clr-accent: #57B289;
     --clr-accent-drk: #468e6e;
@@ -421,6 +421,7 @@ header {
     margin: 1em 1em;
     background-color: var(--clr-med);
     overflow: hidden;
+    max-height: 400px;
 }
 .portfolio__img {
     transition: transform 750ms cubic-bezier(.5,0,.5,1),
