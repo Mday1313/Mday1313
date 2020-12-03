@@ -86,6 +86,11 @@ button:focus {
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
 }
+.disabled {
+    opacity: .5;
+    cursor: not-allowed;
+  
+}
 
 .btn:hover {
     transform: scale(1.1);
